@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/96b3282458.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <title>Shopping Cart</title>
+</head>
+
+<body>
+  <section id="header">
+    <a href="index.html"><img src="images/logo.png" class="logo" width="300rem"></a>
+    <div>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+
+  <section id="cart-home" class="pt-5 mt-5 container">
+    <h2 class="font-weight-bold pt-5">Shopping Cart</h2>
+  </section>
+
+  <section id="cart-container" class="container-lg my-5">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Total</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+          <td><img src="images/products/p9.png" alt="">
+          <td>
+            <h5>Nike Dunks Low 'University Blue'</h5>
+          </td>
+          <td>
+            <h5>₹24,799</h5>
+          </td>
+          <td><input class="w-25 pl-1" type="number" value="1" max="1" min="1"></td>
+          <td>
+            <h5>₹24,799</h5>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+          <td><img src="images/products/w2.png" alt="">
+          <td>
+            <h5>Nike Air Force 1 Low 'Coffee'</h5>
+          </td>
+          <td>
+            <h5>₹24,999</h5>
+          </td>
+          <td><input class="w-25 pl-1" type="number" value="1" max="1" min="1"></td>
+          <td>
+            <h5>₹24,999</h5>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+          <td><img src="images/products/w4.png" alt="">
+          <td>
+            <h5>Adidas Yeezy 750 'Chocolate'</h5>
+          </td>
+          <td>
+            <h5>₹149,799</h5>
+          </td>
+          <td><input class="w-25 pl-1" type="number" value="1" max="1" min="1"></input>
+          <td>
+            <h5>₹149,799</h5>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="cart-bottom" class="container-lg">
+    <div class="row">
+      <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+        <div>
+          <h5>Have Any Promocodes?</h5>
+          <p>Enter Promocode</p>
+          <input type="text" placeholder="Promocode">
+          <button>Apply Code</button>
+        </div>
+      </div>
+
+      <div class="total col-lg-6 col-md-6 col-12 mb-4">
+        <div>
+          <h5>Cart Total</h5>
+          <div class="d-flex justify-content-between">
+            <h6>Subtotal</h6>
+            <p>₹177,097</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h6>Shipping</h6>
+            <p>₹99</p>
+          </div>
+          <hr class="second-hr">
+          <div class="d-flex justify-content-between">
+            <h6>Total</h6>
+            <p>₹177,196</p>
+          </div>
+          <a href="checkout.html"><button>Checkout</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="pg-footer">
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-content-column">
+          <div class="footer-logo">
+          </div>
+        </div>
+        <div class="footer-content-column">
+          <div class="footer-menu">
+            <h2 class="footer-menu-name">Account</h2>
+            <ul id="menu-company" class="footer-menu-list">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">Orders</a>
+              </li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                <a href="#">Account</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">Cart</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-menu">
+            <h2 class="footer-menu-name"> Legal</h2>
+            <ul id="menu-legal" class="footer-menu-list">
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-column">
+          <div class="footer-menu">
+            <h2 class="footer-menu-name"> Quick Links</h2>
+            <ul id="menu-quick-links" class="footer-menu-list">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="#">Contact</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">Shop</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">About</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="mailto:support@sneakairs.xyz">Email</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-column">
+          <div class="footer-call-to-action">
+            <h2 class="footer-call-to-action-title">Contact Us</h2>
+            <p class="footer-call-to-action-description">We Love Answering Your Questions!</p>
+            <a class="footer-call-to-action-button button" href="mailto:support@sneakairs.xyz"
+              target="_self">Email Us</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer-copyright">
+        <div class="footer-copyright-wrapper">
+          <p class="footer-copyright-text">
+            <a class="footer-copyright-link" href="#" target="_self">Note: This website is made for demonstration
+              purposes. Orders made through this website will not be fulfilled.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
